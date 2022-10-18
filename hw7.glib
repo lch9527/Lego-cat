@@ -1,0 +1,17 @@
+##OpenGL GLIB
+Perspective 70
+LookAt  0 0 3     0 0 0    0 1 0
+
+Vertex   lego.vert
+Geometry lego.geom
+Fragment lego.frag
+Program Lego  				\
+	uModelCoords <true>		\
+	uLevel <0 3 3>			\
+	uQuantize <2. 50. 50.>		\
+	uLightX <-20. 5. 20.>                   \
+    uLightY <-20. 10. 20.>                  \
+    uLightZ <-20. 20. 20.>                  \
+	uColor { 1.00 0.65 0.40 }
+
+Obj cat.obj
